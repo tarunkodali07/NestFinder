@@ -30,7 +30,7 @@ describe('Escrow', () => {
             lender.address
         )
 
-        // Approve Property
+        // Approve Propert
         transaction = await realEstate.connect(seller).approve(escrow.address, 1)
         await transaction.wait()
 
